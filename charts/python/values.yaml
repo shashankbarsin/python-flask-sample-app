@@ -4,8 +4,8 @@
 replicaCount: 1
 image:
   pullPolicy: IfNotPresent
-  repository: r.cfcr.io/kostis-codefresh/kostis-codefresh/python-flask-sampleapp
-  tag: master
+  repository: r.cfcr.io/shashankbarsin/shashankbarsin/pythonflasksampleapp
+  tag: with-helm
 service:
   name: python
   type: LoadBalancer
@@ -19,4 +19,4 @@ resources:
     cpu: 100m
     memory: 128Mi
 ingress:
-  enabled: true
+  enabled: false
