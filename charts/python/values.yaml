@@ -4,8 +4,8 @@
 replicaCount: 1
 image:
   pullPolicy: IfNotPresent
-  repository: r.cfcr.io/shashankbarsin/shashankbarsin/pythonflasksampleapp
-  tag: with-helm
+  repository: r.cfcr.io/shashankbarsin/shashankbarsin/python-flask-sample-app
+  tag: master
 service:
   name: python
   type: LoadBalancer
